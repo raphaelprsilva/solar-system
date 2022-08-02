@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Title from '../Title/Title';
 import planets from '../../data/planets';
-import Planets from '../Planets';
+import Planets from '../Planets/Planets';
 import * as S from './styled';
 
 export default class SolarSystem extends Component {

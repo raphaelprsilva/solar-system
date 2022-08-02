@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import PlanetCard from './PlanetCard';
+
+import PlanetCard from '../PlanetCard';
+import * as S from './styled';
 
 export default class Planets extends Component {
   render() {
     const { planets } = this.props;
     return (
-      <div>
+      <S.PlanetsWrapper>
         {planets.map((planet) => (
           <PlanetCard
-            key={ planet.name }
-            planetName={ planet.name }
-            planetImage={ planet.image }
+            key={planet.name}
+            planetName={planet.name}
+            planetImage={planet.image}
           />
         ))}
-      </div>
+      </S.PlanetsWrapper>
     );
   }
 }

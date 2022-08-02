@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+import * as S from './styled';
+
 export default class Title extends Component {
   render() {
     const { headline } = this.props;
-    return <h2>{headline}</h2>;
+    return <S.Title>{headline}</S.Title>;
   }
 }
 

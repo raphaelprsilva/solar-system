@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 
+import * as S from './styled';
+
 import Missions from '../Missions';
 import SolarSystem from '../SolarSystem';
 
 export default class Main extends Component {
   render() {
     return (
-      <main>
+      <S.MainWrapper>
         <SolarSystem />
         <Missions />
-      </main>
+      </S.MainWrapper>
     );
   }
 }

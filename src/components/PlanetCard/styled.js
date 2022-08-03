@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const PlanetCardWrapper = styled.div`
+  width: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;

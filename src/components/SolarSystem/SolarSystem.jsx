@@ -9,7 +9,6 @@ export default class SolarSystem extends Component {
   render() {
     return (
       <S.SolarSystemWrapper data-testid="solar-system">
-        <Title headline="Planetas" />
         <Planets planets={planets} />
       </S.SolarSystemWrapper>
     );

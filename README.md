@@ -2,9 +2,9 @@
 
 ## :memo: Descrição
 
-Este projeto foi desenvolvido durante o curso da Trybe, no módulo de desenvolvimento front-end.
+Este projeto foi o primeiro, desenvolvido durante o curso da Trybe, no módulo front-end.
 
-Este, consiste em uma aplicação React, contendo imagens de planetas e missões feitas ao espaço.
+Ele consiste em uma aplicação React, contendo imagens de planetas e missões feitas ao espaço.
 
 ![](https://media.giphy.com/media/)
 
